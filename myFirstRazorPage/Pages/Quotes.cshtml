@@ -1,0 +1,12 @@
+@page
+@model QuotesModel
+@{
+    ViewData["Title"] = "Quotes page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Some quotes.</p>
+@foreach (var quotes in Model.famousQuotes)
+{
+ <p>@quotes.Quote</p>
+}

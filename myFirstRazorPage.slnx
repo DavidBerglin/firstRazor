@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Configuration/Configuration.csproj" />
+  <Project Path="Encryptions/Encryptions.csproj" />
+  <Project Path="Models/Models.csproj" />
+  <Project Path="myFirstMVC/myFirstMVC.csproj" />
+  <Project Path="myFirstRazorPage/myFirstRazorPage.csproj" />
+  <Project Path="Services/Services.csproj" />
+</Solution>

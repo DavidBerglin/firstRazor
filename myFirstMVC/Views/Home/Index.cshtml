@@ -1,0 +1,18 @@
+﻿@using Configuration;
+@using Models;
+@using Services;
+@using myFirstMVC.Models;
+@model IndexViewModel;
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <p>Some Quotes</p>
+     @foreach (LatinSentence Sentence in Model.Sentences)
+    {
+        <p>@Sentence.Sentence</p>
+    }
+</div>

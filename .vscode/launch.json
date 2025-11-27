@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch myFirstRazorPage",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/myFirstRazorPage/bin/Debug/net9.0/myFirstRazorPage.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/myFirstRazorPage",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/myFirstRazorPage/Views"
+            }
+        },
+        {
+            "name": "Launch myFirstMVC",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build myFirstMVC",
+            "program": "${workspaceFolder}/myFirstMVC/bin/Debug/net9.0/myFirstMVC.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/myFirstMVC",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/myFirstMVC/Views"
+            }
+        }
+    ]
+}
