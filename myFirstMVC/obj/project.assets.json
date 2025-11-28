@@ -3213,49 +3213,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\davva\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\davva\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\myFirstMVC\\myFirstMVC.csproj",
+      "projectUniqueName": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\myFirstMVC\\myFirstMVC.csproj",
       "projectName": "myFirstMVC",
-      "projectPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\myFirstMVC\\myFirstMVC.csproj",
+      "projectPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\myFirstMVC\\myFirstMVC.csproj",
       "packagesPath": "C:\\Users\\davva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\myFirstMVC\\obj\\",
+      "outputPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\myFirstMVC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\davva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\davva\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Configuration\\Configuration.csproj": {
-              "projectPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Configuration\\Configuration.csproj"
+            "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Configuration\\Configuration.csproj": {
+              "projectPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Configuration\\Configuration.csproj"
             },
-            "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Encryptions\\Encryptions.csproj": {
-              "projectPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Encryptions\\Encryptions.csproj"
+            "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Encryptions\\Encryptions.csproj": {
+              "projectPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Encryptions\\Encryptions.csproj"
             },
-            "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Models\\Models.csproj"
+            "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Models\\Models.csproj"
             },
-            "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\davva\\Desktop\\Webbutveckling Backend\\myFirstRazorPage\\Services\\Services.csproj"
+            "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\davva\\Desktop\\WebbutvecklingB\\firstRazor\\Services\\Services.csproj"
             }
           }
         }
@@ -3270,7 +3262,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -3300,7 +3292,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
