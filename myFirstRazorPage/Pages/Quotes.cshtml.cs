@@ -8,10 +8,10 @@ namespace myFirstRazorPage.Pages;
 public class QuotesModel : PageModel
 {
     private readonly ILogger<QuotesModel> _logger;
-    private readonly QuoteService _quoteservice;
+    private readonly IQuoteService _quoteservice;
     public List<FamousQuote>? famousQuotes {get;set;}
 
-    public QuotesModel(ILogger<QuotesModel> logger, QuoteService quoteService)
+    public QuotesModel(ILogger<QuotesModel> logger, IQuoteService quoteService)
     {
         _logger = logger;
         _quoteservice = quoteService;

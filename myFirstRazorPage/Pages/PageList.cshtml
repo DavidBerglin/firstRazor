@@ -1,4 +1,4 @@
-@page "/Hej"
+@page
 @using Models
 @model QuotesList
 @{
@@ -40,11 +40,7 @@
                         <p>@quotes.Quote</p>                        
                     </div>
                     <div class="col-md-2 themed-grid-col">
-                        <a href="#edit-item" class="btn btn-secondary btn-sm m-1">Edit</a>
-                        <button type="button" class="btn btn-danger btn-sm m-1" data-bs-toggle="modal"
-                            data-bs-target="#delModal" data-seido-modal-body="@quotes.Quote is about to be deleted.">
-                            Del
-                        </button>
+                    <a asp-page="/ViewSentence" asp-route-id=@quotes.QuoteId class="btn btn-success btn-sm" type="button">View</a>
                     </div>
                 </div>
             }

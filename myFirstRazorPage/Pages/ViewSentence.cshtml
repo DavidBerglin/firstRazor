@@ -1,0 +1,29 @@
+ @page
+@using Models
+@model SingleQuote
+@{
+    ViewData["Title"] = "One Quote";
+    Layout = "_Layout";
+}
+
+ 
+  <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+                <div class="col-md-7 col-lg-10">
+
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="author" class="form-label">Author</label>
+                            <input type="text" class="form-control" id="author" value="@Model.Quote.Author" readonly>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="quoteId" class="form-label">QuoteId</label>
+                            <input type="text" class="form-control" id="quoteId" value="@Model.Quote.QuoteId" readonly>
+                        </div>
+                        <div class="col-sm-12">
+                            <label for="quote" class="form-label">Quote</label>
+                            <input type="text" class="form-control" id="quote" value="@Model.Quote.Quote" readonly>
+                        </div>
+                    </div>
+
+                </div>
+            </div>

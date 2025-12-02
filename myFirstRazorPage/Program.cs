@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<LatinService>();
-builder.Services.AddSingleton<QuoteService>();
+builder.Services.AddSingleton<IQuoteService,QuoteService>();
 
 var app = builder.Build();
 

@@ -147,3 +147,4 @@ C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\myFirstRazorPage\
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\myFirstRazorPage\obj\Debug\net9.0\myFirstRazorPage.pdb
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\myFirstRazorPage\obj\Debug\net9.0\myFirstRazorPage.genruntimeconfig.cache
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\myFirstRazorPage\obj\Debug\net9.0\ref\myFirstRazorPage.dll
+C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\myFirstRazorPage\obj\Debug\net9.0\myFirstRazorPage.sourcelink.json

@@ -29,3 +29,4 @@ C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Encryptions\obj\D
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Encryptions\obj\Debug\net9.0\refint\Encryptions.dll
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Encryptions\obj\Debug\net9.0\Encryptions.pdb
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Encryptions\obj\Debug\net9.0\ref\Encryptions.dll
+C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Encryptions\obj\Debug\net9.0\Encryptions.sourcelink.json

@@ -33,3 +33,4 @@ C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Models\obj\Debug\
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Models\obj\Debug\net9.0\refint\Models.dll
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Models\obj\Debug\net9.0\Models.pdb
 C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Models\obj\Debug\net9.0\ref\Models.dll
+C:\Users\davva\Desktop\Webbutveckling Backend\myFirstRazorPage\Models\obj\Debug\net9.0\Models.sourcelink.json
